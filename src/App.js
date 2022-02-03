@@ -1,20 +1,20 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './components/navbar';
-import About from './pages/about'
-import Home from './pages/home'
+import Home from './pages/home';
+import About from './pages/about';
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <Routes>
-          <Route path = "/about" component = {About} />
-          <Route exact path = "/" component = {Home} />
+          <Route path = "/about" element = {<About />} />
+          <Route exact path = "/" element = {<Home />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
