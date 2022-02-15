@@ -11,8 +11,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path = "/MyWebsite/about" element = {<About />} />
-          <Route exact path = "/MyWebsite/" element = {<Home />} />
+          <Route path = "/about" element = {<About />} />
+          <Route exact path = "/" element = {<Home />} />
         </Routes>
       </Router>
     </>
