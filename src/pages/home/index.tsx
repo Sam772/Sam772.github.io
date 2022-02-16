@@ -2,10 +2,9 @@ import React from 'react';
 
 const Home = () => {
   return  (
-    <div className='home'>
-      <h2>Home View</h2>
-      <p>This is the home page</p>
-    </div>    
+    <div>
+      <p className='mt-8 text-white text-center text-3xl font-semibold sm:text-4xl'>Welcome to the homepage</p>
+    </div>
   );
 };
 

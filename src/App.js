@@ -9,11 +9,13 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
-        <Routes>
-          <Route path = "/about" element = {<About />} />
-          <Route exact path = "/" element = {<Home />} />
-        </Routes>
+        <div className="absolute h-full w-full bg-[url('/beams.png')] bg-cover bg-center bg-fixed">
+          <Navbar />
+          <Routes>
+            <Route path = "/about" element = {<About />} />
+            <Route exact path = "/" element = {<Home />} />
+          </Routes>
+        </div>
       </Router>
     </>
   );
