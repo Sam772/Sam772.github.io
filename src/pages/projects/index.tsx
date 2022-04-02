@@ -12,21 +12,45 @@ const Projects = () => {
           <div className="hidden md:block h-56">
             <div className="ml-10 flex items-baseline space-x-20">
               <div>
-                <img src={clash} className='relative z-0 w-5/6 text-black rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
-                <p className="text-white py-3 px-20">
+                <img src={clash} className='relative z-0 w-5/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
+                <p className="text-white text-2xl font-semibold py-3 w-5/6 text-center">
                   Clash
                 </p>
               </div>
               <div>
-                <img src={clash} className='relative z-0 w-5/6 text-black rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
-                <p className="text-white py-3 px-14">
+                <img src={clash} className='relative z-0 w-5/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
+                <p className="text-white text-2xl font-semibold py-3 w-5/6 text-center">
                   Discord Bot
                 </p>
               </div>
               <div>
-                <img src={clash} className='relative z-0 w-5/6 text-black rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
-                  <p className="text-white py-3 px-14">
-                    Clash
+                <img src={clash} className='relative z-0 w-5/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
+                  <p className="text-white text-2xl font-semibold py-3 w-5/6 text-center">
+                    Events Website
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center justify-between h-80">
+          <div className="hidden md:block h-56">
+            <div className="ml-10 flex items-baseline space-x-20">
+              <div>
+                <img src={clash} className='relative z-0 w-5/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
+                <p className="text-white text-2xl font-semibold py-3 w-5/6 text-center">
+                  Clash
+                </p>
+              </div>
+              <div>
+                <img src={clash} className='relative z-0 w-5/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
+                <p className="text-white text-2xl font-semibold py-3 w-5/6 text-center">
+                  Discord Bot
+                </p>
+              </div>
+              <div>
+                <img src={clash} className='relative z-0 w-5/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200' alt='clash'/>
+                  <p className="text-white text-2xl font-semibold py-3 w-5/6 text-center">
+                    Events Website
                   </p>
               </div>
             </div>
