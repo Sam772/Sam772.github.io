@@ -1,6 +1,10 @@
 import React from 'react'
 import clash from '../../images/clash.png'
-// mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-center
+import bot from '../../images/bot.png'
+import events from '../../images/events.png'
+import portfolio from '../../images/portfolio.png'
+import blank from '../../images/blank.png'
+
 const Projects = () => {
   return (
     <div>
@@ -12,7 +16,7 @@ const Projects = () => {
           <div className="hidden md:block h-56">
             <div className="ml-10 flex items-baseline space-x-20">
               <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
-                <img src={clash} className='rounded-lg w-full' alt='clash'/>
+                <img src={clash} className='rounded-lg w-full h-64' alt='clash'/>
                 <p className="text-white text-2xl font-semibold py-3 w-full text-center">
                   Clash
                 </p>
@@ -21,56 +25,54 @@ const Projects = () => {
                 </p>
               </div>
               <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
-              <img src={clash} className='rounded-lg w-full' alt='clash'/>
+              <img src={bot} className='rounded-lg w-full h-64' alt='clash'/>
                 <p className="text-white text-2xl font-semibold py-3 w-full text-center">
-                  Discord Bot
+                  Discord Music Bot
                 </p>
                 <p className="text-white text-1xl font-semibold text-center mx-2 mb-2">
-                    An 3D online networked turn based multiplayer rpg game developed using Unity and Mirror's networking library
+                  A discord bot created with discord.js for listening to music, containing several commands
                 </p>
               </div>
               <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
-              <img src={clash} className='rounded-lg w-full' alt='clash'/>
+              <img src={events} className='rounded-lg w-full h-64' alt='clash'/>
                   <p className="text-white text-2xl font-semibold py-3 w-full text-center">
                     Events Website
                   </p>
                   <p className="text-white text-1xl font-semibold text-center mx-2 mb-2">
-                    An 3D online networked turn based multiplayer rpg game developed using Unity and Mirror's networking library
+                    A website created to book aston events, created with html, css, bootstrap, javascript, sql and php
                 </p>
               </div>
             </div>
           </div>
         </div>
         <div className="flex items-center justify-between h-96 mt-36">
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-20">
-              <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
-                <img src={clash} className='rounded-lg w-full' alt='clash'/>
-                <p className="text-white text-2xl font-semibold py-3 w-full text-center">
-                  Clash
-                </p>
-                <p className="text-white text-1xl font-semibold text-center mx-2 mb-2">
-                    An 3D online networked turn based multiplayer rpg game developed using Unity and Mirror's networking library
-                </p>
-              </div>
-              <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
-                <img src={clash} className='rounded-lg w-full' alt='clash'/>
-                <p className="text-white text-2xl font-semibold py-3 w-full text-center">
-                  Discord Bot
-                </p>
-                <p className="text-white text-1xl font-semibold text-center mx-2 mb-2">
-                    An 3D online networked turn based multiplayer rpg game developed using Unity and Mirror's networking library
-                </p>
-              </div>
-              <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
-                <img src={clash} className='rounded-lg w-full' alt='clash'/>
-                <p className="text-white text-2xl font-semibold py-3 w-full text-center">
-                  Events Website
-                </p>
-                <p className="text-white text-1xl font-semibold text-center mx-2 mb-2">
-                    An 3D online networked turn based multiplayer rpg game developed using Unity and Mirror's networking library
-                </p>
-              </div>
+          <div className="ml-10 flex items-baseline space-x-20">
+            <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
+              <img src={portfolio} className='rounded-lg w-full h-64' alt='clash'/>
+              <p className="text-white text-2xl font-semibold py-3 w-full text-center">
+                Portfolio Website
+              </p>
+              <p className="text-white text-1xl font-semibold text-center mx-2 mb-2">
+                A website created with react, typescript and tailwind css
+              </p>
+            </div>
+            <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
+              <img src={blank} className='rounded-lg w-full h-64' alt='clash'/>
+              <p className="text-white text-2xl font-semibold py-3 w-full text-center">
+                [INSERT TITLE]
+              </p>
+              <p className="text-white text-1xl font-semibold text-center mx-2 mb-8">
+              [INSERT TEXT]
+              </p>
+            </div>
+            <div className='bg-gray-800/50 ring-1 ring-inset ring-gray-500/20 relative z-0 w-4/6 rounded-lg hover:scale-110 transition-transform ease-in-out duration-200'>
+              <img src={blank} className='rounded-lg w-full h-64' alt='clash'/>
+              <p className="text-white text-2xl font-semibold py-3 w-full text-center">
+                [INSERT TITLE]
+              </p>
+              <p className="text-white text-1xl font-semibold text-center mx-2 mb-8">
+                [INSERT TEXT]
+              </p>
             </div>
           </div>
         </div>
