@@ -40,7 +40,7 @@ const Projects = () => {
                   </p>
                   <p className="text-white text-1xl font-semibold text-center mx-2 mb-2">
                     A website created to book aston events, created with html, css, bootstrap, javascript, sql and php
-                </p>
+                  </p>
               </div>
             </div>
           </div>
