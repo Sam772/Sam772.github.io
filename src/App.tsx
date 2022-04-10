@@ -16,7 +16,7 @@ function App() {
             <div className="absolute h-full w-full bg-[url('/src/images/grid.svg')] [background-position:calc(100%+5px)_calc(100%+5px)] bg-fixed" />
               <Navbar />
                 <Routes>
-                  <Route exact path = "/" element = {<Home />} />
+                  <Route path = "/" element = {<Home />} />
                   <Route path = "/projects" element = {<Projects />} />
                   <Route path = "/contact" element = {<Contact />} />
                 </Routes>
