@@ -78,21 +78,4 @@
         mb-2
     }
 
-    .wrapper {
-        @apply
-        mb-8
-        grid
-        gap-4
-        grid-cols-1
-        justify-center
-    }
-
-    .card2 {
-        @apply
-        shadow-2xl
-        rounded-none
-        min-w-full
-        flex
-    }
-
 }
