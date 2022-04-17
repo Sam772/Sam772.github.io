@@ -4,6 +4,34 @@
 
 @layer components {
     
+    .website-config {
+        @apply
+        max-w-7xl
+        mx-auto
+        px-4
+        sm:px-6
+        lg:px-8
+        pt-8
+    }
+
+    .project-title {
+        @apply
+        mt-8
+        text-white
+        text-center
+        text-3xl
+        font-semibold
+        sm:text-4xl
+    }
+
+    .card-wrapper {
+        @apply
+        flex
+        flex-wrap
+        justify-center
+        m-6
+    }
+
     .card-body {
         @apply
         bg-gray-800/50
@@ -16,6 +44,12 @@
         transition-transform
         ease-in-out
         duration-200
+        flex
+        flex-col
+        shadow-md
+        m-6
+        overflow-hidden
+        sm:w-80
     }
 
     .card-title {
@@ -43,4 +77,22 @@
         mx-2
         mb-2
     }
+
+    .wrapper {
+        @apply
+        mb-8
+        grid
+        gap-4
+        grid-cols-1
+        justify-center
+    }
+
+    .card2 {
+        @apply
+        shadow-2xl
+        rounded-none
+        min-w-full
+        flex
+    }
+
 }

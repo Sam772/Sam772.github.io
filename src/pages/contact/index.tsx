@@ -1,9 +1,10 @@
 import React from 'react';
+import './index.css';
 
 const Contact = () => {
   return (
-    <div>
-      <p className='mt-8 text-white text-center text-3xl font-semibold sm:text-4xl'>
+    <div className='website-config'>
+      <p className='contact-title'>
         Contact
       </p>
     </div>    

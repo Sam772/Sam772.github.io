@@ -1,9 +1,10 @@
 import React from 'react';
+import './index.css'
 
 const Home = () => {
   return (
-    <div>
-      <p className='mt-8 text-white text-center text-3xl font-semibold sm:text-4xl'>
+    <div className='website-config'>
+      <p className='home-title'>
       My name is Samir Shahid, I am a 19 year old computer science student studying to become a software developer.
       </p>
     </div>
