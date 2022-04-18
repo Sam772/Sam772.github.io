@@ -11,6 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        '80' : '21.25rem'
+      },
       colors: {
         primary: '#202225',
         secondary: '#5865f2',
