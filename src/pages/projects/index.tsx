@@ -6,10 +6,11 @@ import portfolio from '../../images/portfolio.png'
 import blank from '../../images/blank.png'
 import './index.css'
 
-interface ICard {
+interface IProps {
   img: string
   title: string
   desc: string
+  url?: string
 }
 
 const Projects = () => {
@@ -22,35 +23,39 @@ const Projects = () => {
           <Card 
             img={clash}
             title="Clash"
-            desc="An 3D online networked turn based multiplayer rpg game developed using Unity and Mirror's networking library"
+            desc="A 3D online networked turn-based multiplayer rpg game developed using Unity and Mirror's networking library."
+            url="https://github.com/Sam772/Clash"
           />
           <Card 
             img={bot}
             title="Discord Music Bot"
-            desc="A discord bot created with discord.js for listening to music, containing several commands"
+            desc="A discord bot created with Discord.js and Node.js for listening to music through YouTube, containing several commands."
+            url="https://github.com/Sam772/Discord-Music-Bot"
           />
           <Card 
             img={events}
             title="Events Website"
-            desc=" A website created to book aston events, created with html, css, bootstrap, javascript, sql and php"
+            desc="A website created to book Aston events, created with HTML, CSS, Bootstrap, JavaScript, SQL and PHP."
+            url="https://github.com/Sam772/Events-Website"
           />
           <Card 
             img={portfolio}
             title="Portfolio Website"
-            desc="A website created with react, typescript and tailwind css"
+            desc="A website created to showcase my work, made with React, TypeScript and TailwindCSS."
           />
       </div>
-      <div className='mb-16'/>
     </div>
   )
 }
 
-const Card = (props: ICard) => {
+const Card = (props: IProps) => {
   return (
     <div className='card-body'>
+      <a href={props.url} target="_blank" rel="noopener noreferrer">
       <img src={props.img} className='card-img' alt='img'/>
       <p className="card-title">{props.title}</p>
       <p className="card-desc">{props.desc}</p>
+      </a>
     </div>
   )
 } 
