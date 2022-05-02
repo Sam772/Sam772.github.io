@@ -3,7 +3,6 @@ import clash from '../../images/clash.png'
 import bot from '../../images/bot.png'
 import events from '../../images/events.png'
 import portfolio from '../../images/portfolio.png'
-import blank from '../../images/blank.png'
 import './index.css'
 
 interface IProps {
@@ -44,6 +43,7 @@ const Projects = () => {
             desc="A website created to showcase my work, made with React, TypeScript and TailwindCSS."
           />
       </div>
+      <div className='mb-96'/>
     </div>
   )
 }
@@ -52,9 +52,9 @@ const Card = (props: IProps) => {
   return (
     <div className='card-body'>
       <a href={props.url} target="_blank" rel="noopener noreferrer">
-      <img src={props.img} className='card-img' alt='img'/>
-      <p className="card-title">{props.title}</p>
-      <p className="card-desc">{props.desc}</p>
+        <img src={props.img} className='card-img' alt='img'/>
+        <p className="card-title">{props.title}</p>
+        <p className="card-desc">{props.desc}</p>
       </a>
     </div>
   )

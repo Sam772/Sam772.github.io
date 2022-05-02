@@ -7,6 +7,9 @@ const Contact = () => {
       <p className='contact-title'>
         Contact
       </p>
+      <p className='contact-title'>
+        Gmail: sssam.8390@gmail.com
+      </p>
     </div>    
   );
 };

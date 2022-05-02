@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Transition } from "@headlessui/react";
+import './navbar.css'
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);

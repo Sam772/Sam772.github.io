@@ -12,6 +12,7 @@
         sm:px-6
         lg:px-8
         pt-8
+        content-center
     }
 
     .home-title {
@@ -22,5 +23,14 @@
         text-3xl
         font-semibold
         sm:text-4xl
+        mb-5
+    }
+
+    .image-style {
+        @apply
+        rounded-full
+        object-cover
+        content-center
+        mx-auto
     }
 }
