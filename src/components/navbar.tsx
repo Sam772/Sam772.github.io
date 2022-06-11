@@ -7,8 +7,8 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
       <div>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
-            <div className="flex items-center justify-between h-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-14 md:px-16 lg:px-0 pt-2">
+            <div className="flex items-center justify-end h-16">
               <div className="flex items-center">
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-6">
@@ -85,7 +85,7 @@ function Navbar() {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          {(ref) => (
+          {(ref : any) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link to ="/" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
@@ -95,7 +95,7 @@ function Navbar() {
                   Projects
                 </Link>
                 <Link to ="/contact" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
-                        Contact
+                  Contact
                 </Link>
               </div>
             </div>

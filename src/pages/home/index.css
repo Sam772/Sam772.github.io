@@ -21,16 +21,8 @@
         text-white
         text-center
         text-3xl
-        font-semibold
+        font-bold
         sm:text-4xl
         mb-5
-    }
-
-    .image-style {
-        @apply
-        rounded-full
-        object-cover
-        content-center
-        mx-auto
     }
 }
