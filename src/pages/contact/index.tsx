@@ -13,7 +13,7 @@ const Contact = () => {
       <p className='contact-title'>
         Contact
       </p>
-      <div className='card-wrapper2'>
+      <div className='justify-center flex'>
         <ContactCard
           line1="sssam.8390@gmail.com"
           line2="LinkedIn"
