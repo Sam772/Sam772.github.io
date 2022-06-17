@@ -41,6 +41,7 @@ const Projects = () => {
             img={portfolio}
             title="Portfolio Website"
             desc="A website created to showcase my work, made with React, TypeScript and TailwindCSS."
+            url="https://github.com/Sam772/Sam772.github.io"
           />
       </div>
       <div className='mb-96'/>
