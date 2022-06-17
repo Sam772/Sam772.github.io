@@ -3,6 +3,7 @@ import clash from '../../images/clash.png'
 import bot from '../../images/bot.png'
 import events from '../../images/events.png'
 import portfolio from '../../images/portfolio.png'
+import ragnarok from '../../images/ragnarok.png'
 import './index.css'
 
 interface IProps {
@@ -42,6 +43,12 @@ const Projects = () => {
             title="Portfolio Website"
             desc="A website created to showcase my work, made with React, TypeScript and TailwindCSS."
             url="https://github.com/Sam772/Sam772.github.io"
+          />
+          <Card
+            img={ragnarok}
+            title="Ragnarok"
+            desc="An experimental 2D Singleplayer RPG game being developed in Unity and C#."
+            url="https://github.com/Sam772/Ragnarok"
           />
       </div>
       <div className='mb-96'/>
