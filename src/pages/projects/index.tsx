@@ -51,7 +51,6 @@ const Projects = () => {
             url="https://github.com/Sam772/Ragnarok"
           />
       </div>
-      <div className='mb-96'/>
     </div>
   )
 }

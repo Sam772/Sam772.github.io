@@ -10,7 +10,7 @@ function App() {
     <>
       <Router>
         <div className="absolute h-full w-full bg-[url('/src/images/beams.png')] bg-cover bg-center bg-fixed no-scrollbar overflow-y-auto">
-          <div className="absolute h-full w-full bg-[url('/src/images/grid.svg')] [background-position:calc(100%+5px)_calc(100%+5px)] bg-fixed">
+          <div className="absolute h-full w-full bg-[url('/src/images/grid.svg')] [background-position:calc(100%+5px)_calc(100%+5px)] bg-fixed overflow-y-auto">
             <Navbar />
             <Routes>
               <Route path = "/" element = {<Home />} />
