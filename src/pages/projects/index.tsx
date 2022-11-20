@@ -4,6 +4,7 @@ import bot from '../../images/bot.png'
 import events from '../../images/events.png'
 import portfolio from '../../images/portfolio.png'
 import ragnarok from '../../images/ragnarok.png'
+import aslidingpumpkin from '../../images/aslidingpumpkin.png'
 import './index.css'
 
 interface IProps {
@@ -49,6 +50,12 @@ const Projects = () => {
             title="Ragnarok"
             desc="An experimental 2D Singleplayer RPG game being developed in Unity and C#."
             url="https://github.com/Sam772/Ragnarok"
+          />
+          <Card
+            img={aslidingpumpkin}
+            title="A Sliding Pumpkin"
+            desc="Project made for HackTheMidlands7, a singleplayer game made with Unity and C#."
+            url="https://github.com/IBN5101/HTM7-project"
           />
       </div>
     </div>
