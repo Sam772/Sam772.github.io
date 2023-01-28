@@ -15,14 +15,24 @@
         content-center
     }
 
-    .home-title {
+    .home-about-me-title {
         @apply
         mt-8
         text-white
         text-center
+        font-bold
+        sm:text-5xl
+        mb-5
+    }
+
+    .home-about-me-content {
+        @apply
+        mt-2
+        text-white
+        text-center
         text-3xl
         font-bold
-        sm:text-4xl
+        sm:text-2xl
         mb-5
     }
 }

@@ -58,6 +58,14 @@ const Projects = () => {
             url="https://github.com/IBN5101/HTM7-project"
           />
       </div>
+      <footer>
+        <div className="mt-16 text-center text-gray-500 text-sm font-light mb-8">
+          © Copyright 2022 Samir Shahid{" "}
+          <span className="text-gray-200 font-light">
+            All Rights Reserved
+          </span>
+        </div>
+      </footer>
     </div>
   )
 }

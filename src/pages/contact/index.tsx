@@ -20,6 +20,14 @@ const Contact = () => {
           url='https://www.linkedin.com/in/samir-shahid-44737b222/'
         />
       </div>
+      <footer>
+        <div className="fixed inset-x-0 bottom-10 mt-16 text-center text-gray-500 text-sm font-light">
+          © Copyright 2022 Samir Shahid{" "}
+          <span className="text-gray-200 font-light">
+            All Rights Reserved
+          </span>
+        </div>
+      </footer>
     </div>
   );
 };
