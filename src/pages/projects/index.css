@@ -25,10 +25,20 @@
         sm:text-5xl
     }
 
+    .project-subheading {
+        @apply
+        mt-8
+        text-white
+        text-center
+        text-2xl
+        font-bold
+        sm:text-3xl 
+    }
+
     .card-wrapper {
         @apply
-        mt-6
         grid
+        /* place-items-center */
         justify-items-center
         grid-cols-1
         sm:grid-cols-1
