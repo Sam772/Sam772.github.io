@@ -6,6 +6,7 @@ import portfolio from '../../images/portfolio.png'
 import ragnarok from '../../images/ragnarok.png'
 import aslidingpumpkin from '../../images/aslidingpumpkin.png'
 import tetris from '../../images/tetris.png'
+import endlessgoose from '../../images/endlessgoose.png'
 import blank from '../../images/blank.png'
 import './index.css'
 
@@ -36,19 +37,25 @@ const Projects = () => {
             <Card
               img={aslidingpumpkin}
               title="A Sliding Pumpkin"
-              desc="Project made for HackTheMidlands7, a singleplayer game made with Unity and C#."
+              desc="Project made for HackTheMidlands7, a 2D singleplayer game made with Unity and C#."
               url="https://github.com/IBN5101/HTM7-project"
             />
             <Card
               img={tetris}
               title="Tetris"
-              desc="The classic 2D arcade game known as Tetris remade in Unity using C#."
+              desc="The classic 2D arcade game known as Tetris remade in Unity and C#."
               url="https://github.com/Sam772/Tetris"
             />
             <Card
               img={ragnarok}
               title="Ragnarok"
-              desc="A prototype for an experimental 2D Singleplayer RPG game being developed in Unity and C#."
+              desc="A prototype for an experimental 2D singleplayer rpg game being developed in Unity and C#."
+              url="https://github.com/Sam772/Ragnarok"
+            />
+            <Card
+              img={endlessgoose}
+              title="Endless Goose"
+              desc="Project made for Astonhack8, an endless 2D singleplayer shooting game developed in Unity and C#."
               url="https://github.com/Sam772/Ragnarok"
             />
         </div>
