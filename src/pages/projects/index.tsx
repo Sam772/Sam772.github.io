@@ -56,7 +56,7 @@ const Projects = () => {
               img={endlessgoose}
               title="Endless Goose"
               desc="Project made for Astonhack8, an endless 2D singleplayer shooting game developed in Unity and C#."
-              url="https://github.com/Sam772/Ragnarok"
+              url="https://github.com/Dorian-Mayamba/endless-shooting"
             />
         </div>
       </div>
