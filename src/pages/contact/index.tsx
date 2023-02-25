@@ -25,8 +25,6 @@ const Contact = () => {
         />
       </div>
 
-      {/* Add Fiver Stuff here */}
-
       <footer>
         <div className="fixed inset-x-0 bottom-10 mt-16 text-center text-gray-500 text-sm font-light">
           © Copyright 2022 Samir Shahid{" "}

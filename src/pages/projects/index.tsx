@@ -25,39 +25,39 @@ const Projects = () => {
       </p>
       <div className='project-games'>
         <p className='project-subheading'>
-            Games
+          Games
         </p>
         <div className="card-wrapper">
-            <Card 
-              img={clash}
-              title="Clash"
-              desc="A 3D online networked turn-based multiplayer rpg game developed using Unity and Mirror's networking library."
-              url="https://github.com/Sam772/Clash"
-            />
-            <Card
-              img={aslidingpumpkin}
-              title="A Sliding Pumpkin"
-              desc="Project made for HackTheMidlands7, a 2D singleplayer game made with Unity and C#."
-              url="https://github.com/IBN5101/HTM7-project"
-            />
-            <Card
-              img={tetris}
-              title="Tetris"
-              desc="The classic 2D arcade game known as Tetris remade in Unity and C#."
-              url="https://github.com/Sam772/Tetris"
-            />
-            <Card
-              img={ragnarok}
-              title="Ragnarok"
-              desc="A prototype for an experimental 2D singleplayer rpg game being developed in Unity and C#."
-              url="https://github.com/Sam772/Ragnarok"
-            />
-            <Card
-              img={endlessgoose}
-              title="Endless Goose"
-              desc="Project made for Astonhack8, an endless 2D singleplayer shooting game developed in Unity and C#."
-              url="https://github.com/Dorian-Mayamba/endless-shooting"
-            />
+          <Card 
+            img={clash}
+            title="Clash"
+            desc="A 3D online networked turn-based multiplayer rpg game developed using Unity and Mirror's networking library."
+            url="https://github.com/Sam772/Clash"
+          />
+          <Card
+            img={aslidingpumpkin}
+            title="A Sliding Pumpkin"
+            desc="Project made for HackTheMidlands7, a 2D singleplayer game made with Unity and C#."
+            url="https://github.com/IBN5101/HTM7-project"
+          />
+          <Card
+            img={tetris}
+            title="Tetris"
+            desc="The classic 2D arcade game known as Tetris remade in Unity and C#."
+            url="https://github.com/Sam772/Tetris"
+          />
+          <Card
+            img={ragnarok}
+            title="Ragnarok"
+            desc="A prototype for an experimental 2D singleplayer rpg game being developed in Unity and C#."
+            url="https://github.com/Sam772/Ragnarok"
+          />
+          <Card
+            img={endlessgoose}
+            title="Endless Goose"
+            desc="Project made for Astonhack8, an endless 2D singleplayer shooting game developed in Unity and C#."
+            url="https://github.com/Dorian-Mayamba/endless-shooting"
+          />
         </div>
       </div>
       <div className='website'>
@@ -65,18 +65,18 @@ const Projects = () => {
           Websites
         </p>
         <div className='card-wrapper'>
-            <Card 
-              img={events}
-              title="Events Website"
-              desc="A website created to book Aston events, created with HTML, CSS, Bootstrap, JavaScript, SQL and PHP."
-              url="https://github.com/Sam772/Events-Website"
-            />
-            <Card 
-              img={portfolio}
-              title="Portfolio Website"
-              desc="A website created to showcase my work, made with React, TypeScript and TailwindCSS."
-              url="https://github.com/Sam772/Sam772.github.io"
-            />
+          <Card 
+            img={events}
+            title="Events Website"
+            desc="A website created to book Aston events, created with HTML, CSS, Bootstrap, JavaScript, SQL and PHP."
+            url="https://github.com/Sam772/Events-Website"
+          />
+          <Card 
+            img={portfolio}
+            title="Portfolio Website"
+            desc="A website created to showcase my work, made with React, TypeScript and TailwindCSS."
+            url="https://github.com/Sam772/Sam772.github.io"
+          />
         </div>
       </div>
       <div className='other'>
@@ -84,12 +84,12 @@ const Projects = () => {
           Other
         </p>
         <div className='card-wrapper'>
-            <Card 
-              img={bot}
-              title="Discord Music Bot"
-              desc="A discord bot created with Discord.js and Node.js for listening to music through YouTube, containing several commands."
-              url="https://github.com/Sam772/Discord-Music-Bot"
-            />
+          <Card 
+            img={bot}
+            title="Discord Music Bot"
+            desc="A discord bot created with Discord.js and Node.js for listening to music through YouTube, containing several commands."
+            url="https://github.com/Sam772/Discord-Music-Bot"
+          />
         </div>
       </div>
       <footer>
