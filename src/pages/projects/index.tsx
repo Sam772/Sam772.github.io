@@ -94,7 +94,7 @@ const Projects = () => {
       </div>
       <footer>
         <div className="mt-16 text-center text-gray-500 text-sm font-light mb-10">
-          © Copyright 2022 Samir Shahid{" "}
+          © Copyright 2024 Samir Shahid{" "}
           <span className="text-gray-200 font-light">
             All Rights Reserved
           </span>
