@@ -7,6 +7,10 @@ import ragnarok from '../../images/ragnarok.png'
 import aslidingpumpkin from '../../images/aslidingpumpkin.png'
 import tetris from '../../images/tetris.png'
 import endlessgoose from '../../images/endlessgoose.png'
+import vestic from '../../images/vestic.png'
+import formattedserver from '../../images/formatted-server.png'
+import atmosphere from '../../images/atmosphere.png'
+import animation from '../../images/animation.png'
 import blank from '../../images/blank.png'
 import './index.css'
 
@@ -33,6 +37,12 @@ const Projects = () => {
             title="Clash"
             desc="A 3D online networked turn-based multiplayer rpg game developed using Unity and Mirror's networking library."
             url="https://github.com/Sam772/Clash"
+          />
+          <Card
+            img={atmosphere}
+            title="Atmosphere"
+            desc="Atmosphere is a 3D third person platforming game where the main character is a sphere that will explore and learn about the world, this was created using Unity for the CS3GD module."
+            url="https://github.com/Sam772/Atmosphere"
           />
           <Card
             img={aslidingpumpkin}
@@ -77,6 +87,12 @@ const Projects = () => {
             desc="A website created to showcase my work, made with React, TypeScript and TailwindCSS."
             url="https://github.com/Sam772/Sam772.github.io"
           />
+          <Card 
+            img={vestic}
+            title="Vestic"
+            desc="A project management web application used to manage software project, created for CS3IP."
+            url="https://github.com/Sam772/Vestic"
+          />
         </div>
       </div>
       <div className='other'>
@@ -84,6 +100,18 @@ const Projects = () => {
           Other
         </p>
         <div className='card-wrapper'>
+          <Card 
+            img={animation}
+            title="Blender Animation"
+            desc="A one minute futuristic inspired animation created using Blender."
+            url="https://www.youtube.com/watch?v=KaLh2K1Czr8"
+          />
+          <Card 
+            img={formattedserver}
+            title="Formatted Server"
+            desc="A small networked application with a server/client architecture that runs over TCP."
+            url="https://github.com/Sam772/Formatted-Server"
+          />
           <Card 
             img={bot}
             title="Discord Music Bot"
